@@ -1,0 +1,30 @@
+body{
+    background-color: #ebeef4
+}
+.wapper{
+    width: 600px;
+    margin: auto;
+}
+.left,.right{
+    min-height: 300px;
+}
+.left{
+    width: 30%; float: left;
+}
+.right{
+    width: 70%; float:right;
+}
+
+.boxTitle{
+    border:solid 1px; text-align: center; padding: 5px;
+}
+
+.boxContent{
+    border:solid 1px; border-top: none; text-align: center; padding: 5px;
+}
+#sayHi{
+    text-align: right
+}
+#listMessages{
+    margin-bottom: 30px;
+}

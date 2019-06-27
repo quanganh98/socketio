@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Demo Socket IO</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="controller.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+</head>
+<body>
+    <div class="wapper">
+        <div id="loginForm">
+            <h3>Your Name: </h3>
+            <input type="text" id="userName" />
+            <input type="submit" id="btnRegister" value="Register"/>
+        </div>
+        <div id="chatForm">
+            <div class="left">
+                <div class="boxTitle">Online</div>
+                <div id="boxContent">
+                    
+                </div>
+            </div>
+
+            <div class="right">
+                <div id="sayHi">Hello: <span id="currentUser">Quang Anh</span>
+                    <input type="button" id="btnLogout" value="Logout" />
+                </div>
+                <div id="listMessages">
+
+                </div>
+                <input type="text" id="txtMess">
+                <input type="button" id="btnSend" value="Send">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
